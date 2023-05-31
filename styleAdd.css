@@ -1,0 +1,67 @@
+* {
+    font-family: "Poppins";
+}
+
+h1 {
+    text-align: center;
+}
+
+.container {
+    margin-top: 30px;
+}
+
+.container ul li {
+    list-style: none;
+}
+
+.container input[type="text"]{
+    width: 100%;
+    margin-bottom: 40px;
+    height: 20px;
+    font-size: 16px;
+    border: none;
+    background: none;
+    outline: none;
+    border-bottom: 2px solid #adadad;
+}
+
+.container input[type="file"] {
+    margin-top: 40px;
+}
+
+.container input[type="file"]::file-selector-button {
+    border-radius: 10px;
+    transition: 1s;
+    margin-left: 10px; 
+    margin-right: 10px;
+    color: #2e2e2e;
+    background-color: #FFFF;
+    border-color: #adadad;
+}
+  
+.container input[type="file"]::file-selector-button:hover {
+    color: #FFFF;
+    background-color: #2e2e2e;
+    border-radius: 10px;
+    transition: 1s;
+    margin-left: 10px; 
+    margin-right: 10px;
+} 
+
+.container button {
+    width: max-content;
+    height: 50px;
+    margin-top: 30px;
+    color: #FFFF;
+    background-color: #2e2e2e;
+    border-radius: 10px;
+    transition: 1s;
+}
+
+.container button:hover {
+    color: #2e2e2e;
+    background-color: #fff;
+    border-color: #2e2e2e;
+    border-radius: 10px;
+    transition: 1s;
+}
